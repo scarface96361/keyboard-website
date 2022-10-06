@@ -15,11 +15,11 @@ const Navbar = () => {
           <Bars />
     
           <NavMenu>
-            <NavLink to='/about' activeStyle>
-              About
+            <NavLink to='/home' activeStyle>
+              Home
             </NavLink>
-            <NavLink to='/events' activeStyle>
-              Events
+            <NavLink to='/keyboards' activeStyle>
+              Keyboards
             </NavLink>
             <NavLink to='/annual' activeStyle>
               Annual Report
