@@ -21,7 +21,7 @@ const Navbar = () => {
             <NavLink to='/keyboards' activeStyle>
               Keyboards
             </NavLink>
-            <NavLink to='/annual' activeStyle>
+            {/* <NavLink to='/annual' activeStyle>
               Annual Report
             </NavLink>
             <NavLink to='/team' activeStyle>
@@ -32,7 +32,7 @@ const Navbar = () => {
             </NavLink>
             <NavLink to='/sign-up' activeStyle>
               Sign Up
-            </NavLink>
+            </NavLink> */}
             {/* Second Nav */}
             {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
           </NavMenu>
