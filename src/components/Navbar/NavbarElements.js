@@ -52,7 +52,13 @@ margin-right: -24px;
 /* width: 100vw;
 white-space: nowrap; */
 @media screen and (max-width: 768px) {
-	display: none;
+	.navbar .navbar-nav {
+		max-height: 100%;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	  }
+	  .dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus{
+		color: $font-color !impo
 }
 `;
 

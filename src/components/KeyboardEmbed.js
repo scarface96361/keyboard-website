@@ -4,27 +4,14 @@ import React from "react";
 
 const KeyboardEmbed =({source,description, youtube}) =>{
     return(
-        <div 
-            style={{
-            display: 'flex',
-            justifyContent: 'Center',
-            flexDirection: 'row',
-                alignItems: 'Center',
-            width:"60%"
+        <div className="keyboard-postdiv">
+            <img src = {require(`../Images/Keyboard/${source}`)} alt= "keyboard img broken" width="50%" height="auto"/>
             
-        }}>
-            <img src = {require(`../Images/Keyboard/${source}`)} alt= "keyboard img broken"width="50%" height="auto"/>
-            
-            <div style={{
-                display: 'flex',
-                justifyContent: 'Center',
-                flexDirection: 'column',
-                alignItems: 'Center',
-            }}>
-                <text style={{flexShrink: 1, flexWrap: 'wrap' }}>
+            <div className="keyboard-Textblock">
+                <text className="text-block">
                 {description}
                 </text>
-                <a href={youtube}>{youtube}</a>
+                <a href={youtube} target ="=_blank">A short youtube sound test!</a>
             </div>
         </div>
     )

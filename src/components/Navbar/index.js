@@ -4,8 +4,8 @@ import {
   NavLink,
   Bars,
   NavMenu,
-  NavBtn,
-  NavBtnLink,
+ /*  NavBtn,
+  NavBtnLink, */
 } from './NavbarElements';
 
 const Navbar = () => {
@@ -21,10 +21,10 @@ const Navbar = () => {
             <NavLink to='/keyboards' activeStyle>
               Keyboards
             </NavLink>
-            {/* <NavLink to='/annual' activeStyle>
-              Annual Report
+             <NavLink to='/projects' activeStyle>
+              Active Projects
             </NavLink>
-            <NavLink to='/team' activeStyle>
+            {/*<NavLink to='/team' activeStyle>
               Teams
             </NavLink>
             <NavLink to='/blogs' activeStyle>
